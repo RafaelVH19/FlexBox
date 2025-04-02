@@ -1,0 +1,29 @@
+/* TODO: Centrar la navegación vertical y horizontalmente usando Flexbox */
+body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* TODO: Quitar las viñetas de la lista */
+  ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+  }
+  
+  /* TODO: Estilo base de los enlaces */
+  a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  /* TODO: Estilo cuando el mouse pasa sobre el enlace */
+  a:hover {
+    color: blue;
+    text-decoration: underline;
+  }
+  
