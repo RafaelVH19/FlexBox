@@ -13,6 +13,7 @@ body {
     padding: 0;
     display: flex;
     gap: 20px;
+    justify-content: space-evenly;
   }
   
   /* TODO: Estilo base de los enlaces */
